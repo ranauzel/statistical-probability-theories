@@ -1,6 +1,6 @@
 Bu proje, çeşitli istatistiksel olasılık teorileri ve olasılık dağılımlarını kullanarak veriler üzerinde analizler yapmayı amaçlamaktadır. Veriler üzerinden yapılan analizlerle popülasyon ve örneklem ilişkileri, güven aralıkları ve farklı olasılık dağılımlarının uygulanabilirliği incelenmiştir. Aşağıda projede kullanılan bazı temel kavramlar ve analiz yöntemleri açıklanmıştır.
 
-İÇERİK:
+#### İÇERİK:
 Örneklem: Veri bilimi çalışmalarında kullanılacak olan popülasyonun bir alt kümesidir. Günümüzde verilerin fazlalığı sebebiyle  örneklemler üzerinden analizler yapılır, modeller kurulur ve popülasyona ait çıkarımlar elde edilir.
 
 Seaborn kütüphanesi içerisinden "tips" veri seti seçilerek describe() fonksiyonu ile istatistiksel sonuçlarını inceledim. Researchpy kütüphanesi kullanarak da kategorik değişkenlerin de analizini yaptım. Toplam bahşişlerle, günlük bahşişler arasındaki ilişkinin sonucunu " df[["tip","total_bill"]].cov()" ile gözlemledim burda cov() coveryansın kısaltması olarak yazılmıştır. İstatistikte veri seti içerisindeki değişkenlerin birbirleriyle ilişkilerindeki oranı vermektedir.df[["tip","total_bill"]].corr() ile de  bu değişkenlerin birbiriyle ilişkisinin gücünü ve yönünün gösteririr. Yani 
