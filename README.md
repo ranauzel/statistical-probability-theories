@@ -3,10 +3,10 @@ Bu proje, çeşitli istatistiksel olasılık teorileri ve olasılık dağılıml
 #### İÇERİK:
 Örneklem: Veri bilimi çalışmalarında kullanılacak olan popülasyonun bir alt kümesidir. Günümüzde verilerin fazlalığı sebebiyle  örneklemler üzerinden analizler yapılır, modeller kurulur ve popülasyona ait çıkarımlar elde edilir.
 
-Seaborn kütüphanesi içerisinden "tips" veri seti seçilerek describe() fonksiyonu ile istatistiksel sonuçlarını inceledim. Researchpy kütüphanesi kullanarak da kategorik değişkenlerin de analizini yaptım. Toplam bahşişlerle, günlük bahşişler arasındaki ilişkinin sonucunu " df[["tip","total_bill"]].cov()" ile gözlemledim burda cov() coveryansın kısaltması olarak yazılmıştır. İstatistikte veri seti içerisindeki değişkenlerin birbirleriyle ilişkilerindeki oranı vermektedir.df[["tip","total_bill"]].corr() ile de  bu değişkenlerin birbiriyle ilişkisinin gücünü ve yönünün gösteririr. Yani 
-1: Tam pozitif doğrusal ilişki
--1: Tam negatif doğrusal ilişki
-0: Hiçbir doğrusal ilişki bulunmamaktadır.
+Seaborn kütüphanesi içerisinden "tips" veri seti seçilerek describe() fonksiyonu ile istatistiksel sonuçlarını inceledim. Researchpy kütüphanesi kullanarak da kategorik değişkenlerin de analizini yaptım. Toplam bahşişlerle, günlük bahşişler arasındaki ilişkinin sonucunu " df[["tip","total_bill"]].cov()" ile gözlemledim burda cov() coveryansın kısaltması olarak yazılmıştır. İstatistikte veri seti içerisindeki değişkenlerin birbirleriyle ilişkilerindeki oranı vermektedir. "df[["tip","total_bill"]].corr() "ile de  bu değişkenlerin birbiriyle ilişkisinin gücünü ve yönünün göstermektedir. Yani 
+# 1: Tam pozitif doğrusal ilişki
+# -1: Tam negatif doğrusal ilişki
+# 0: Hiçbir doğrusal ilişki bulunmamaktadır.
 
 Güven aralığı teorisi
 Popülasyon parametrelerinde ortalama,oran değerlerinin hangi değerler arasında olacağını belirler.
