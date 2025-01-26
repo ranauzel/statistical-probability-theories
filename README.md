@@ -1,4 +1,3 @@
-İstatistiksel Olasılık Teorileri Projesi
 Bu proje, çeşitli istatistiksel olasılık teorileri ve olasılık dağılımlarını kullanarak veriler üzerinde analizler yapmayı amaçlamaktadır. Veriler üzerinden yapılan analizlerle popülasyon ve örneklem ilişkileri, güven aralıkları ve farklı olasılık dağılımlarının uygulanabilirliği incelenmiştir. Aşağıda projede kullanılan bazı temel kavramlar ve analiz yöntemleri açıklanmıştır.
 
 İÇERİK:
